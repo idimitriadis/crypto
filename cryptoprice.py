@@ -147,19 +147,19 @@ def get_correlation(top):
     plt.show()
     print (newdf)
 
-#pprint.pprint (live_social_status('ETH'))
-# pprint.pprint (live_social_status('ETH')['Facebook'])
-# pprint.pprint (live_social_status('ETH')['Twitter'])
-# pprint.pprint (live_social_status('ETH')['Reddit'])
+
 
 # print (price('LTC',exchange="Coinbase"))
 #print (daily_price_historical('BTC','EUR'))
-
-top = get_top(10)
-get_correlation(top)
+# top = get_top(10)
 # print (top)
 # top.pop(2)
 # print (top)
 #plot_top_history(top,'log')
 #plot_top_hourly_historical(top,'linear',1,360)
 #plot_top_minute_historical(top,'linear',1,360)
+#pprint.pprint (live_social_status('ETH'))
+# pprint.pprint (live_social_status('ETH')['Facebook'])
+# pprint.pprint (live_social_status('ETH')['Twitter'])
+# pprint.pprint (live_social_status('ETH')['Reddit'])
+#get_correlation(top)
